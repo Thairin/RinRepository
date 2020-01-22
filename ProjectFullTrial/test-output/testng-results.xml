@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
   <reporter-output>
     <line>
       <![CDATA[------------Browser Launched-----------]]>
+    </line>
+    <line>
+      <![CDATA[Attempting login using :Username and Password]]>
     </line>
     <line>
       <![CDATA[Username inputted]]>
@@ -11,18 +14,90 @@
       <![CDATA[Password inputted]]>
     </line>
     <line>
+      <![CDATA[Login attempted successfully]]>
+    </line>
+    <line>
+      <![CDATA[------------Browser Closed-------------]]>
+    </line>
+    <line>
+      <![CDATA[------------Browser Launched-----------]]>
+    </line>
+    <line>
+      <![CDATA[Attempting login using :riniclaudia and Password1]]>
+    </line>
+    <line>
+      <![CDATA[Username inputted]]>
+    </line>
+    <line>
+      <![CDATA[Password inputted]]>
+    </line>
+    <line>
+      <![CDATA[Login attempted successfully]]>
+    </line>
+    <line>
+      <![CDATA[------------Browser Closed-------------]]>
+    </line>
+    <line>
+      <![CDATA[------------Browser Launched-----------]]>
+    </line>
+    <line>
+      <![CDATA[Attempting login using :riniclaudia and Password2]]>
+    </line>
+    <line>
+      <![CDATA[Username inputted]]>
+    </line>
+    <line>
+      <![CDATA[Password inputted]]>
+    </line>
+    <line>
+      <![CDATA[Login attempted successfully]]>
+    </line>
+    <line>
+      <![CDATA[------------Browser Closed-------------]]>
+    </line>
+    <line>
+      <![CDATA[------------Browser Launched-----------]]>
+    </line>
+    <line>
+      <![CDATA[Attempting login using :riniclaudia and Password3]]>
+    </line>
+    <line>
+      <![CDATA[Username inputted]]>
+    </line>
+    <line>
+      <![CDATA[Password inputted]]>
+    </line>
+    <line>
+      <![CDATA[Login attempted successfully]]>
+    </line>
+    <line>
       <![CDATA[------------Browser Closed-------------]]>
     </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="12164" started-at="2020-01-21T14:24:54 EST" finished-at="2020-01-21T14:25:06 EST">
+  <suite name="Default suite" duration-ms="48266" started-at="2020-01-22T14:28:09 EST" finished-at="2020-01-22T14:28:57 EST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="12164" started-at="2020-01-21T14:24:54 EST" finished-at="2020-01-21T14:25:06 EST">
-      <class name="com.gmail.Testcases.LoginCheck">
-        <test-method status="PASS" signature="LoginCh()[pri:0, instance:com.gmail.Testcases.LoginCheck@61f8bee4]" name="LoginCh" duration-ms="12124" started-at="2020-01-21T14:24:54 EST" finished-at="2020-01-21T14:25:06 EST">
+    <test name="Default test" duration-ms="48266" started-at="2020-01-22T14:28:09 EST" finished-at="2020-01-22T14:28:57 EST">
+      <class name="com.gmail.Testcases.LoginCheckMultipleCredentials">
+        <test-method status="PASS" signature="validLoginCheck(java.lang.String, java.lang.String)[pri:0, instance:com.gmail.Testcases.LoginCheckMultipleCredentials@887af79]" name="validLoginCheck" duration-ms="12437" started-at="2020-01-22T14:28:10 EST" data-provider="passData" finished-at="2020-01-22T14:28:22 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Username]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
             <line>
               <![CDATA[------------Browser Launched-----------]]>
+            </line>
+            <line>
+              <![CDATA[Attempting login using :Username and Password]]>
             </line>
             <line>
               <![CDATA[Username inputted]]>
@@ -31,11 +106,116 @@
               <![CDATA[Password inputted]]>
             </line>
             <line>
+              <![CDATA[Login attempted successfully]]>
+            </line>
+            <line>
               <![CDATA[------------Browser Closed-------------]]>
             </line>
           </reporter-output>
-        </test-method> <!-- LoginCh -->
-      </class> <!-- com.gmail.Testcases.LoginCheck -->
+        </test-method> <!-- validLoginCheck -->
+        <test-method status="PASS" signature="validLoginCheck(java.lang.String, java.lang.String)[pri:0, instance:com.gmail.Testcases.LoginCheckMultipleCredentials@887af79]" name="validLoginCheck" duration-ms="11577" started-at="2020-01-22T14:28:22 EST" data-provider="passData" finished-at="2020-01-22T14:28:34 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[riniclaudia]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[------------Browser Launched-----------]]>
+            </line>
+            <line>
+              <![CDATA[Attempting login using :riniclaudia and Password1]]>
+            </line>
+            <line>
+              <![CDATA[Username inputted]]>
+            </line>
+            <line>
+              <![CDATA[Password inputted]]>
+            </line>
+            <line>
+              <![CDATA[Login attempted successfully]]>
+            </line>
+            <line>
+              <![CDATA[------------Browser Closed-------------]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validLoginCheck -->
+        <test-method status="PASS" signature="validLoginCheck(java.lang.String, java.lang.String)[pri:0, instance:com.gmail.Testcases.LoginCheckMultipleCredentials@887af79]" name="validLoginCheck" duration-ms="11931" started-at="2020-01-22T14:28:34 EST" data-provider="passData" finished-at="2020-01-22T14:28:46 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[riniclaudia]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[------------Browser Launched-----------]]>
+            </line>
+            <line>
+              <![CDATA[Attempting login using :riniclaudia and Password2]]>
+            </line>
+            <line>
+              <![CDATA[Username inputted]]>
+            </line>
+            <line>
+              <![CDATA[Password inputted]]>
+            </line>
+            <line>
+              <![CDATA[Login attempted successfully]]>
+            </line>
+            <line>
+              <![CDATA[------------Browser Closed-------------]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validLoginCheck -->
+        <test-method status="PASS" signature="validLoginCheck(java.lang.String, java.lang.String)[pri:0, instance:com.gmail.Testcases.LoginCheckMultipleCredentials@887af79]" name="validLoginCheck" duration-ms="11832" started-at="2020-01-22T14:28:46 EST" data-provider="passData" finished-at="2020-01-22T14:28:57 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[riniclaudia]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[------------Browser Launched-----------]]>
+            </line>
+            <line>
+              <![CDATA[Attempting login using :riniclaudia and Password3]]>
+            </line>
+            <line>
+              <![CDATA[Username inputted]]>
+            </line>
+            <line>
+              <![CDATA[Password inputted]]>
+            </line>
+            <line>
+              <![CDATA[Login attempted successfully]]>
+            </line>
+            <line>
+              <![CDATA[------------Browser Closed-------------]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validLoginCheck -->
+      </class> <!-- com.gmail.Testcases.LoginCheckMultipleCredentials -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
