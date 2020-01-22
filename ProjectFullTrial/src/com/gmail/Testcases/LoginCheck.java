@@ -25,7 +25,6 @@ public class LoginCheck {
 		app.launchApp();
 		app.login("Username","Password");
 		app.closeApp();
-	}
-	
+	}	
 	
 }
