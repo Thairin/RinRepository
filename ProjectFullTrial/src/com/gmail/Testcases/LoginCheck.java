@@ -17,7 +17,6 @@ import Lib.AppConfig;
 public class LoginCheck {
 
 	WebDriver driver;
-		
 	@Test
 	public void LoginCh() throws Exception
 	{
