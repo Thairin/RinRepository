@@ -5,8 +5,8 @@ package com.gmail.Testcases;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.testng.annotations.Test;
-
 import Lib.AppConfig;
 
 /**
@@ -20,11 +20,12 @@ public class LoginCheck {
 	@Test
 	public void LoginCh() throws Exception
 	{
-		driver = new ChromeDriver();
+		ChromeOptions options=new ChromeOptions();
+		options.addArguments("--incognito");
+		driver = new ChromeDriver(options);
 		AppConfig app=new AppConfig(driver);
 		app.launchApp();
-		app.login("Username","Password");
+		app.login("riniclaudia","Password");
 		app.closeApp();
 	}	
-	
 }

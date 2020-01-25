@@ -14,7 +14,7 @@ public class LoginCheckMultipleCredentials
 	WebDriver driver;
 			
 	@Test(dataProvider="passData")
-	public void validLoginCheck(String Username,String Password) throws InterruptedException
+	public void validLoginCheck(String Username,String Password) throws Exception
 	{
 		driver=new ChromeDriver();
 		

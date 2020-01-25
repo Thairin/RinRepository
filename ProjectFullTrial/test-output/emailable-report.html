@@ -9,13 +9,48 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="7">Default suite</th></tr>
-<tr><td><a href="#t0">Default test</a></td><td class="num">4</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">48,266</td><td></td><td></td></tr>
+<tr><td><a href="#t0">Default test</a></td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">6,500</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="4">com.gmail.Testcases.LoginCheckMultipleCredentials</td><td><a href="#m0">validLoginCheck</a></td><td rowspan="4">1579721314210</td><td rowspan="4">11931</td></tr><tr class="passedeven"><td><a href="#m1">validLoginCheck</a></td></tr><tr class="passedeven"><td><a href="#m2">validLoginCheck</a></td></tr><tr class="passedeven"><td><a href="#m3">validLoginCheck</a></td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.gmail.Testcases.LoginCheck</td><td><a href="#m0">LoginCh</a></td><td rowspan="1">1579895949198</td><td rowspan="1">6452</td></tr></tbody>
 </table>
-<h2>Default test</h2><h3 id="m0">com.gmail.Testcases.LoginCheckMultipleCredentials#validLoginCheck</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>riniclaudia</td><td>Password2</td></tr><tr><th colspan="2">Messages</th></tr><tr><td colspan="2"><div class="messages">------------Browser Launched-----------<br/>Attempting login using :riniclaudia and Password2<br/>Username inputted<br/>Password inputted<br/>Login attempted successfully<br/>------------Browser Closed-------------</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">com.gmail.Testcases.LoginCheckMultipleCredentials#validLoginCheck</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>riniclaudia</td><td>Password1</td></tr><tr><th colspan="2">Messages</th></tr><tr><td colspan="2"><div class="messages">------------Browser Launched-----------<br/>Attempting login using :riniclaudia and Password1<br/>Username inputted<br/>Password inputted<br/>Login attempted successfully<br/>------------Browser Closed-------------</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">com.gmail.Testcases.LoginCheckMultipleCredentials#validLoginCheck</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>Username</td><td>Password</td></tr><tr><th colspan="2">Messages</th></tr><tr><td colspan="2"><div class="messages">------------Browser Launched-----------<br/>Attempting login using :Username and Password<br/>Username inputted<br/>Password inputted<br/>Login attempted successfully<br/>------------Browser Closed-------------</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m3">com.gmail.Testcases.LoginCheckMultipleCredentials#validLoginCheck</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>riniclaudia</td><td>Password3</td></tr><tr><th colspan="2">Messages</th></tr><tr><td colspan="2"><div class="messages">------------Browser Launched-----------<br/>Attempting login using :riniclaudia and Password3<br/>Username inputted<br/>Password inputted<br/>Login attempted successfully<br/>------------Browser Closed-------------</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Default test</h2><h3 id="m0">com.gmail.Testcases.LoginCheck#LoginCh</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">------------Browser Launched-----------</div></td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.io.FileNotFoundException: E:\Screenshots\TC_001_Login_Check\Home2020-01-24T14:59:15.225.jpg (The filename, directory name, or volume label syntax is incorrect)
+	at java.io.FileOutputStream.open0(Native Method)
+	at java.io.FileOutputStream.open(Unknown Source)
+	at java.io.FileOutputStream.&lt;init&gt;(Unknown Source)
+	at java.io.FileOutputStream.&lt;init&gt;(Unknown Source)
+	at org.openqa.selenium.io.FileHandler.copyFile(FileHandler.java:138)
+	at org.openqa.selenium.io.FileHandler.copy(FileHandler.java:117)
+	at Lib.takeScreenshot.Screenshot(takeScreenshot.java:23)
+	at Lib.AppConfig.launchApp(AppConfig.java:35)
+	at com.gmail.Testcases.LoginCheck.LoginCh(LoginCheck.java:27)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.ArrayList.forEach(Unknown Source)
+	at org.testng.TestRunner.privateRun(TestRunner.java:770)
+	at org.testng.TestRunner.run(TestRunner.java:591)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+	at org.testng.TestNG.runSuites(TestNG.java:1032)
+	at org.testng.TestNG.run(TestNG.java:1000)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

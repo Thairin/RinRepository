@@ -1,15 +1,20 @@
 package FirstSeleniumPackage;
 
+import java.io.File;
+import java.io.IOException;
 import java.util.concurrent.TimeUnit;
 import org.openqa.selenium.By;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
+import org.openqa.selenium.io.FileHandler;
 import org.openqa.selenium.support.ui.Select;
 
 public class FirstClass {
-public static void main(String[] args) throws InterruptedException
+public static void main(String[] args) throws InterruptedException, Exception
 {
 //System.setProperty("webdiver.chrome.driver", "C:\\Program Files\\chromedriver_win32\\chromedriver.exe");
 
@@ -63,6 +68,11 @@ select2.selectByVisibleText("1991");
 
 WebElement gender = driver.findElement(By.xpath("//label[contains(text(),'Female')]"));
 gender.click();
+
+TakesScreenshot ts=(TakesScreenshot)driver;
+File f=ts.getScreenshotAs(OutputType.FILE);
+FileHandler.copy(f,new File("E:\\Screenshots\\FirstSelenium_TestCase\\"+"Form_filled_Page"+".jpg"));
+
 
 WebElement submit =driver.findElement(By.name("websubmit"));
 submit.click();
