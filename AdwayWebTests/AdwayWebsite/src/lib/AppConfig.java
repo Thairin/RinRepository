@@ -1,25 +1,27 @@
-package com.adwaytech.testcases;
+package lib;
 
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+
 import org.openqa.selenium.chrome.ChromeOptions;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeMethod;
 
-public class LoginAdwway {
+public class AppConfig {
 
-	
-	public static void main(String[] args) throws Exception
+	WebDriver driver;
+
+	public AppConfig(WebDriver driver) throws Exception
 	{
 		
-		//Adding chromeoptions to view the website in incognito window
-		ChromeOptions options = new ChromeOptions();
-		options.addArguments("--incognito");
-		
-		//Initialising webdriver and maximizing
-		WebDriver driver = new ChromeDriver(options);
-		driver.manage().window().maximize();
-		
+		this.driver = driver;
+	}	
+	
+	public void LaunchApp() throws Exception
+	{
+		driver.manage().window().maximize();		
 		//Launching the website using URL and printing message 
 		driver.get("http://www.adwaytech.com/");
 		System.out.println("AdwayTech Website launched successfully");
@@ -29,8 +31,6 @@ public class LoginAdwway {
 		Boolean AboutPresent = element.isDisplayed();
 		if (AboutPresent == true) 
 			System.out.println("Home page displayed as expected");
-		else
-			System.out.println("Unable to launch home page");
 		
 		Thread.sleep(3000);
 		
@@ -42,8 +42,11 @@ public class LoginAdwway {
 		Boolean loginPresent = driver.findElement(By.xpath("/html/body/div[2]/div/h2")).isDisplayed();
 		if (loginPresent ==true)
 				System.out.println("Login Page displayed successfully");
-		
-		//Closing the driver
-		driver.close();
 		}
+	
+	public void closeApp()
+	{	
+	driver.close();
+	System.out.println("----Browser closed---");
+	}
 }

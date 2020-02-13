@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="9" passed="9">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="98454" started-at="2020-02-07T20:45:28 EST" finished-at="2020-02-07T20:47:07 EST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="98454" started-at="2020-02-07T20:45:28 EST" finished-at="2020-02-07T20:47:07 EST">
+      <class name="com.adwaytech.testcases.LoginAdway">
+        <test-method status="PASS" signature="LoginValidTest2()[pri:2, instance:com.adwaytech.testcases.LoginAdway@5b87ed94]" name="LoginValidTest2" duration-ms="48646" started-at="2020-02-07T20:45:28 EST" finished-at="2020-02-07T20:46:17 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginValidTest2 -->
+        <test-method status="PASS" signature="LoginValidTest3()[pri:3, instance:com.adwaytech.testcases.LoginAdway@5b87ed94]" name="LoginValidTest3" duration-ms="45931" started-at="2020-02-07T20:45:28 EST" finished-at="2020-02-07T20:46:14 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginValidTest3 -->
+        <test-method status="PASS" signature="LoginValidTest4()[pri:4, instance:com.adwaytech.testcases.LoginAdway@5b87ed94]" name="LoginValidTest4" duration-ms="48422" started-at="2020-02-07T20:45:28 EST" finished-at="2020-02-07T20:46:17 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginValidTest4 -->
+        <test-method status="PASS" signature="LoginValidTest1()[pri:1, instance:com.adwaytech.testcases.LoginAdway@5b87ed94]" name="LoginValidTest1" duration-ms="43927" started-at="2020-02-07T20:45:28 EST" finished-at="2020-02-07T20:46:12 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginValidTest1 -->
+        <test-method status="PASS" signature="LoginValidTest5()[pri:5, instance:com.adwaytech.testcases.LoginAdway@5b87ed94]" name="LoginValidTest5" duration-ms="26032" started-at="2020-02-07T20:45:53 EST" finished-at="2020-02-07T20:46:19 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginValidTest5 -->
+        <test-method status="PASS" signature="LoginValidTest6()[pri:6, instance:com.adwaytech.testcases.LoginAdway@5b87ed94]" name="LoginValidTest6" duration-ms="28090" started-at="2020-02-07T20:46:12 EST" finished-at="2020-02-07T20:46:40 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginValidTest6 -->
+        <test-method status="PASS" signature="LoginValidTest7()[pri:7, instance:com.adwaytech.testcases.LoginAdway@5b87ed94]" name="LoginValidTest7" duration-ms="30832" started-at="2020-02-07T20:46:14 EST" finished-at="2020-02-07T20:46:45 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginValidTest7 -->
+        <test-method status="PASS" signature="LoginValidTest8()[pri:8, instance:com.adwaytech.testcases.LoginAdway@5b87ed94]" name="LoginValidTest8" duration-ms="49976" started-at="2020-02-07T20:46:17 EST" finished-at="2020-02-07T20:47:07 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginValidTest8 -->
+      </class> <!-- com.adwaytech.testcases.LoginAdway -->
+      <class name="com.adwaytech.testcases.HomePageCheck">
+        <test-method status="PASS" signature="HomePage()[pri:0, instance:com.adwaytech.testcases.HomePageCheck@7fac631b]" name="HomePage" duration-ms="24971" started-at="2020-02-07T20:45:28 EST" finished-at="2020-02-07T20:45:53 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HomePage -->
+      </class> <!-- com.adwaytech.testcases.HomePageCheck -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
